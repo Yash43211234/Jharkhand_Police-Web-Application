@@ -3,27 +3,16 @@
     
 }
 
-footer {
-    bottom: 0px;
+.copyright {
+    padding: 10px;
+    width: 100%;
     background-color: rgba(0,0,70);
-    padding: 0 0 10px 0;
     color: #fff;
     font-size: 14px;
-}
-footer .footer-top {
-    padding: 60px 0 30px 0;
-    text-align: left;
-}
+    bottom: 0;
+    
 
-footer .copyright {
-    text-align: center;
-    padding-top: 10px;
 }
-footer .copyright {
-    margin: 0 0 5px 0;
-}
-footer p {
-    font-size: 16px;
-    padding: 0;
-    margin: 0 0 0px 0;
+.page{
+    height: 340px;
 }

@@ -5,17 +5,15 @@ import { Link, NavLink } from "react-router-dom";
 function Footer(){
     return(
         <>
-        <footer>
+        
            <div className="copyright">
-                <p>
-                     Visitors Since 2nd Jan 2023 : 
-                <span id="spantotalVisitors"><Link to href="#" title="website hit counter"><img src="https://counter9.stat.ovh/private/freecounterstat.php?c=cnnllw5lf5twd4eg5puk62a2suj3cmwd" border="0" title="website hit counter" alt="website hit counter"/></Link></span>
-                </p>
-                
-                 
+              <p>
+              Visitors Since 27th Nov 2021 : website hit counter
+              </p>
+              <p>© Copyright Jharkand Police 2021 All Right Reserved. Disclaimer | Privacy Policy Designed & Developed by NeGD</p>
                
             </div>
-           </footer>
+           
         </>
     );
 }

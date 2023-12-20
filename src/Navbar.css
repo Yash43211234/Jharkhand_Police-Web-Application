@@ -1,55 +1,79 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;  
+    font-family: 'Poppins', sans-serif;
 }
-.Navbar{
+
+.Navbar {
     background: #00123c;
-  position: fixed;
-  width: 100%;
-  height: auto;
-  top: 30px;
-  position: relative;
-  margin-bottom:50px ;
-  
+    position: fixed;
+    width: 100%;
+    height: auto;
+    top: 30px;
+    position: relative;
+    margin-bottom: 50px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.Navbar li{
+
+.Navbar li {
     border: 0;
     display: inline-block;
- 
+
     list-style: none;
-    
-    
-    
+
+
+
 }
-.Navbar .active{
-    color: rgb(255, 245, 240) ;
+
+.Navbar .active {
+    color: rgb(255, 245, 240);
     background-color: red;
 }
-.nav-bar-link{
-   
-   
-   color: aliceblue;
-margin-left: 10px ;
-margin-top: 10px ;
-font-size: 14px;
+
+.nav-bar-link {
+
+
+    color: aliceblue;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 15px;
     overflow-y: auto;
     transition: 0.5s;
 }
-.login-button{
+
+.login-button {
     color: rgb(6, 0, 0);
     text-decoration: none;
     border: 1px solid rgb(4, 0, 0);
     border-radius: 2px;
-    margin: 10px ;
-    
+    margin: 10px;
     background-color: rgb(58, 191, 58);
     padding: 1px 10px;
-    
+
     font-size: 12px;
+
+
+}
+
+/* footer css */
+
+.copyright {
+    padding: 10px;
+    width: 100%;
+    background-color: rgba(0,0,70);
+    color: #fff;
+    font-size: 14px;
+    bottom: 0;
     
-    
+
+}
+.page{
+    height: 340px;
 }
