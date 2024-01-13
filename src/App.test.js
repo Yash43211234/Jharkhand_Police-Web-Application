@@ -3,14 +3,14 @@ import './App.css';
 import React, { useState } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Profile from './Profile'
-import Login from './Login'
+import Login from './component/Login'
 import Users from './Users'
 import Life from './Life'
-import Home from './Home'
-import About from './About'
-import Navbar from './Navbar'
-import Page404 from './Page404'
-import SignIn from './SignIn'
+import Home from './component/Home'
+import About from './component/About'
+import Navbar from '../Navbar'
+import Page404 from '../Page404'
+import SignIn from './component/SignIn'
 
 
 

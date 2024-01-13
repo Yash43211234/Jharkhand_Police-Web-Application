@@ -9,3 +9,14 @@ h1{
 body{
   color: black;
 }
+
+.footer{
+  
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background: #00123c;
+  color: aliceblue;
+  padding: 10px;
+
+}

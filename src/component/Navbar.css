@@ -46,6 +46,7 @@
     font-size: 15px;
     overflow-y: auto;
     transition: 0.5s;
+    border-radius: 4px;
 }
 
 .login-button {
@@ -76,4 +77,12 @@
 }
 .page{
     height: 340px;
+}
+
+/*-----navbar css-------*/
+
+service-subset NavLink{
+    color: #03070b;
+    position: absolute;
+    background-color: white;
 }

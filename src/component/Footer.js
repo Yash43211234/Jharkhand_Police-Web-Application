@@ -1,4 +1,4 @@
-import './Footer.css';
+
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Link, NavLink } from "react-router-dom";
 
@@ -6,7 +6,7 @@ function Footer(){
     return(
         <>
         
-           <div className="copyright">
+           <div className="footer">
               <p>
               Visitors Since 27th Nov 2021 : website hit counter
               </p>

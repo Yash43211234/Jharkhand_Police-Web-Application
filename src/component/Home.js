@@ -4,8 +4,7 @@ function Home(){
     return(
         <>
         
-        
-            <p>
+            <p >
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis nam magni esse vitae commodi, tempore
         doloremque id labore rerum culpa praesentium, corporis exercitationem. Tenetur, assumenda architecto deleniti
         accusantium tempore fugit aperiam similique! Exercitationem, tempora dolore. Reprehenderit aliquam dignissimos
