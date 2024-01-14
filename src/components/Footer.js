@@ -6,7 +6,7 @@ function Footer(){
     return(
         <>
         
-           <div className="footer">
+           <div className="foot">
               <p>
               Visitors Since 27th Nov 2021 : website hit counter
               </p>

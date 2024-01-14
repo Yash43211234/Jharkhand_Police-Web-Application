@@ -7,7 +7,11 @@ function Navbar() {
         <div className="Navbar">
             <ul>
                 <li><NavLink className="nav-bar-link"  to="/Home"> HOME </NavLink></li>
-                <li><NavLink className="nav-bar-link" to="/About">ABOUT US</NavLink></li>
+               <li>
+            
+                <NavLink className="nav-bar-link"  to="/About"> ABOUT US </NavLink>
+                
+               </li>
                 
 
 
