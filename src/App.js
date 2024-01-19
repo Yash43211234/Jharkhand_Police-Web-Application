@@ -15,6 +15,8 @@ import ServiceList from './List/ServiceList';
 import FooterAbove from './components/FooterAbove';
 import Feedback from './utils/Feedback';
 import Welfare from './components/Welfare';
+import Link from './components/Link';
+
 
 
 function App() {
@@ -32,6 +34,7 @@ function App() {
                   <Route path='/SignIn' element={<SignIn/>} />
                   <Route path='/Welfare' element={<Welfare/>} />
                   <Route path='/feedback' element={<Feedback/>} />
+                  <Route path='/link' element={<Link/>} />
              
                   
                   <Route path='/*' element={<Page404/>} />
@@ -39,7 +42,7 @@ function App() {
           </BrowserRouter>
       
     <FooterAbove/>
-    
+    -..............................................
      <Footer/>
       </div>
       

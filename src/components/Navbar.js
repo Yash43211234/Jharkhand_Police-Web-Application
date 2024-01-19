@@ -24,7 +24,7 @@ function Navbar() {
                 <li><NavLink className="nav-bar-link" to="/recruitment">RECRUITMENT</NavLink></li>
                 <li><NavLink className="nav-bar-link" to="/welfare">WELFARE</NavLink></li>
                 <li><NavLink className="nav-bar-link" to="/feedback">FEEDBACK</NavLink></li>
-                 <li><NavLink className="nav-bar-link" to="/links">USEFUL LINKS</NavLink></li>
+                 <li><NavLink className="nav-bar-link" to="/Link">USEFUL LINKS</NavLink></li>
                  <li><NavLink className="nav-bar-link" to="/contact">CONTACT US</NavLink></li>
                 {/* <li><NavLink className="nav-bar-link" to="/contact">CONTACT US</NavLink></li> */}
             
