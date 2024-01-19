@@ -2,7 +2,7 @@
 import './FooterAbove.css';
 function FooterAbove() {
     return (
-        <footer id="footer">
+        <footer className=' footerabove' id="footer">
             <div id="footer_En" className="footer-top background-opacity-bg">
                 <div className="container">
                     <div className="row">
@@ -20,7 +20,7 @@ function FooterAbove() {
                                     </div>
                                     <div className="link-br">
                                         <a href="mailto:jharkhand.pol.service@Jharkhandpolice.gov.in">
-                                            <i className="fa fa-envelope pull-left mr-5 fs-20 icon-gradient-yellow"></i> delpol.service.Jharkhandpolice.gov.in
+                                            <i className="fa fa-envelope pull-left mr-5 fs-20 icon-gradient-yellow"></i> jharpol.service.Jharkhandpolice.gov.in
                                         </a>
                                     </div>
                                 </div>
@@ -55,12 +55,12 @@ function FooterAbove() {
                         </div>
                     </div>
 
-                    <div className="col-md-12 text-center">
+                    {/* <div className="col-md-12 text-center">
                         <a href="https://play.google.com/store/apps/details?id=com.tatpar.tatparJharkhandpolice&hl=en_IN&gl=US" target="_blank"><img src="assets/img/tattparapp.png" className="mb-2" alt="Tatpar App" /></a>
                         <a href="https://play.google.com/store/apps/details?id=com.dtp.trafficsentinel" target="_blank"><img src="assets/img/trafficapp.png" className="mb-2" alt="Traffic App" /></a>
                         <a href="https://apps.apple.com/in/app/traffic-sentinel/id1071515704" target="_blank"><img src="assets/img/appstore.png" className="mb-2" alt="App Store" /></a>
                         <a href="https://play.google.com/store/apps/details?id=in.cdac.ners.psa.mobile.android.national" target="_blank"><img src="assets/img/dial112.png" className="mb-2" alt="Dial 112 App" /></a>
-                    </div>
+                    </div> */}
 
                 </div>
             </div>

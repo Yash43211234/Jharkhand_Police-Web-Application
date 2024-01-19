@@ -1,6 +1,9 @@
 
 --------------------------------------------------------------*/
+
+
 #footer {
+  
     background: #090909;
     color: #fff;
     font-size: 14px;
@@ -96,8 +99,7 @@
     
 }
 .footer-info h3{
-    display: flex;
-    align-items: center;
+    
 }
 
 /*------------------------------yashwant // customized code------------------*/
@@ -266,6 +268,11 @@
 
         #footer .footer-top .footer-links {
             margin-bottom: 30px;
+    
+
+        }
+        .social-links a{
+          left: 10px;
         }
 
             #footer .footer-top .footer-links ul {
@@ -351,6 +358,8 @@
             color: #9eccf4;
         }
 
-
-
+/* ------------------footer//////////// */
+.foot{
+    margin-top: -40px;
+}
         

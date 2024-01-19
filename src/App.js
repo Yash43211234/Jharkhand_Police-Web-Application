@@ -9,11 +9,12 @@ import Home from './components/Home'
 import About from './components/About'
 import Navbar from './components/Navbar'
 import Page404 from './components/Page404'
-import Service from './Services/Service'
+import Service from './components/Service'
 import SignIn from './components/SignIn'
-import ServiceList from './Services/ServiceList';
+import ServiceList from './List/ServiceList';
 import FooterAbove from './components/FooterAbove';
 import Feedback from './utils/Feedback';
+import Welfare from './components/Welfare';
 
 
 function App() {
@@ -26,17 +27,18 @@ function App() {
               <Routes>
                  
                   <Route path='/home' element={<Home/>} />
-                  
+                  <Route path='/about' element={<About/>}/>
                   <Route path='/ServiceList' element={<ServiceList/>} />
                   <Route path='/SignIn' element={<SignIn/>} />
-                  <Route path='/Login' element={<Login/>} />
+                  <Route path='/Welfare' element={<Welfare/>} />
                   <Route path='/feedback' element={<Feedback/>} />
              
                   
                   <Route path='/*' element={<Page404/>} />
               </Routes>
           </BrowserRouter>
-              <FooterAbove/>
+      
+    <FooterAbove/>
     
      <Footer/>
       </div>
