@@ -16,7 +16,7 @@ const AboutList = () => {
             <li><NavLink  className='about-data' to="/second">Data 4 </NavLink></li>
             <li><NavLink  className='about-data' to="/first"> Data 5 </NavLink></li>
             <li><NavLink  className='about-data' to="/second">Data 6 </NavLink></li>
-            <li><NavLink  className='about-data' to="/second">Data 7 </NavLink></li>
+           
         </ul>
 
 
