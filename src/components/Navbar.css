@@ -7,6 +7,7 @@
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
 }
+   
 
 .Navbar {
     background: #00123c;
@@ -22,13 +23,13 @@
     align-items: center;
 }
 
+
+
 .Navbar li {
     border: 0;
     display: inline-block;
 
     list-style: none;
-
-
 
 }
 
@@ -36,6 +37,7 @@
     color: rgb(10, 10, 10);
     background-color: rgb(244, 240, 240);
 }
+
 
 .nav-bar-link {
 
@@ -48,6 +50,30 @@
     transition: 0.5s;
     border-radius: 4px;
 }
+.details-of-navbar  {
+    color: rgb(2, 8, 49);
+    background-color: rgb(4, 53, 105);
+    position: absolute;
+  
+    margin-left: -20px;
+    
+    box-sizing: border-box;
+}
+
+.details-of-navbar li {
+    display: flex;
+   
+    flex-direction: column;
+    width: 200px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: -20px;
+    border-bottom: 1px dotted black ;
+
+    
+    
+}
+
 
 .login-button {
     color: rgb(6, 0, 0);

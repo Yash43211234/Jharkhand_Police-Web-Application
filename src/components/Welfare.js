@@ -20,7 +20,7 @@ const Welfare = () => {
                           <i className="bx bxs-building-house bgred"></i>
                         </div>
                         <div className="col-sm-12 col-md-6 float-start">
-                          <h3 className="float-start text-left">jps/traiffic/training</h3>
+                          <h3 className="float-start text-left">jps/traffic/training</h3>
                         </div>
                         <div className="col-sm-12 col-md-4 float-start">
                           <a href="https://www.Jharkhandpolicepublicschool.com/" target="_blank" rel="noopener noreferrer" className="btn btn-dp">View</a>

@@ -5,7 +5,11 @@ function About(){
     return(
         <>
           <div>
-          <AboutList/>
+            <select>
+              <option>data1</option>
+
+
+            </select>
           </div>
         </>
         

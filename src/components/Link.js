@@ -1,3 +1,4 @@
+import './link.css';
 function Link(){
     return (
             <>

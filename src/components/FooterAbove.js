@@ -36,7 +36,7 @@ function FooterAbove() {
                         <div className="col-lg-4 col-md-6 footer-links footer-info">
                             <h3>Jharkhand Police HQ</h3>
                             <p>
-                                Jharkhand POLICE HEADQUARTERS, <br /> JAI SINGH ROAD, NEW Jharkhand <br />
+                                Jharkhand POLICE HEADQUARTERS, <br /> <br />
                                 <strong>Pincode:</strong> 110001<br />
                             </p>
                         </div>
