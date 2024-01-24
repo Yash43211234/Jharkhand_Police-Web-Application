@@ -5,7 +5,7 @@ function About(){
     return(
         <>
           <div>
-          <AboutList/>
+        <AboutList/>    
           </div>
         </>
         
