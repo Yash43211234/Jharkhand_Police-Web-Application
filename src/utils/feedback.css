@@ -1,5 +1,6 @@
 body{
     background-color: rgb(240, 243, 245);
+    
 }
 .logo img{
     width: 250px;
@@ -16,4 +17,7 @@ body{
     box-shadow: 0px 3px rgb(72, 124, 164);
     border: 0;
 
+}
+.maincontent{
+    margin: 100px;
 }

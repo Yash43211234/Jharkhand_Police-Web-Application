@@ -1,0 +1,24 @@
+/* src/components/StateNews.css */
+
+.news-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .news-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+  }
+  
+  .news-item h3 {
+    margin-top: 0;
+  }
+  
+  .news-item p {
+    margin-bottom: 0;
+  }
+  

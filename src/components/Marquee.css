@@ -1,0 +1,29 @@
+.marquee-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  .marquee-container{
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+  }
+  .marquee-content {
+    white-space: nowrap;
+    animation: marquee 30s linear infinite;
+  }
+  .marquee-content span b{
+    font-size: 16px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+  
+  @keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+  .Home-img-first img{
+    margin-top: -20px;
+    height: auto;
+  }
+  

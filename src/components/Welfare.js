@@ -6,7 +6,7 @@ const Welfare = () => {
     <>
       <div>
         <section className="pt-0 pb-0">
-          <img src="https://i1.wp.com/sharpbharat.com/wp-content/uploads/2020/06/%E0%A4%AA%E0%A5%81%E0%A4%B2%E0%A4%BF%E0%A4%B8.jpeg?w=1280&ssl=1" className="img-fluid" alt="Jharkhand Police Public Schools" />
+          <img src="https://thumbs.dreamstime.com/b/welfare-word-abstract-vintage-letterpress-wood-type-welfare-word-abstract-wood-type-120261231.jpg" className="img-fluid" alt="Jharkhand Police Public Schools" />
         </section>
         <main>
           <section id="MainContent_div_En" className="pt-4">
