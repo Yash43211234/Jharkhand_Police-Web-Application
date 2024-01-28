@@ -23,6 +23,11 @@ function Service() {
                 {activeService === 'citizen' && (
                     
                     <div class="service-icons">
+
+                        <div>
+                            hey this is service.
+                        </div>
+
                     <div class="service-icon">
                         <img src="https://tse4.mm.bing.net/th?id=OIP.8fbVqjWUNx71YpWdrRoKRQHaFj&pid=Api&P=0&h=180.jpg" alt="Service 1"></img>
                             <p>Service 1</p>
