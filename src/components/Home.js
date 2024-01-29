@@ -1,74 +1,31 @@
+import React from 'react';
+import './home.css';
+import './Marquee.css';
+import Marquee from './Marquee';
+import Latest from './Latest';
 
-import { Link, NavLink } from "react-router-dom";
-function Home(){
-    return(
-        <>
-        
-            <p >
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis nam magni esse vitae commodi, tempore
-        doloremque id labore rerum culpa praesentium, corporis exercitationem. Tenetur, assumenda architecto deleniti
-        accusantium tempore fugit aperiam similique! Exercitationem, tempora dolore. Reprehenderit aliquam dignissimos
-        possimus tempore soluta itaque, unde, doloribus accusamus cupiditate sapiente assumenda adipisci perferendis,
-        saepe quo ipsa beatae?
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis nam magni esse vitae commodi, tempore
-        doloremque id labore rerum culpa praesentium, corporis exercitationem. Tenetur, assumenda architecto deleniti
-        accusantium tempore fugit aperiam similique! Exercitationem, tempora dolore. Reprehenderit aliquam dignissimos
-        possimus tempore soluta itaque, unde, doloribus accusamus cupiditate sapiente assumenda adipisci perferendis,
-        saepe quo ipsa beatae?
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis nam magni esse vitae commodi, tempore
-        doloremque id labore rerum culpa praesentium, corporis exercitationem. Tenetur, assumenda architecto deleniti
-        accusantium tempore fugit aperiam similique! Exercitationem, tempora dolore. Reprehenderit aliquam dignissimos
-        possimus tempore soluta itaque, unde, doloribus accusamus cupiditate sapiente assumenda adipisci perferendis,
-        saepe quo ipsa beatae?
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis nam magni esse vitae commodi, tempore
-        doloremque id labore rerum culpa praesentium, corporis exercitationem. Tenetur, assumenda architecto deleniti
-        accusantium tempore fugit aperiam similique! Exercitationem, tempora dolore. Reprehenderit aliquam dignissimos
-        possimus tempore soluta itaque, unde, doloribus accusamus cupiditate sapiente assumenda adipisci perferendis,
-        saepe quo ipsa beatae?
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis nam magni esse vitae commodi, tempore
-        doloremque id labore rerum culpa praesentium, corporis exercitationem. Tenetur, assumenda architecto deleniti
-        accusantium tempore fugit aperiam similique! Exercitationem, tempora dolore. Reprehenderit aliquam dignissimos
-        possimus tempore soluta itaque, unde, doloribus accusamus cupiditate sapiente assumenda adipisci perferendis,
-        saepe quo ipsa beatae?
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis nam magni esse vitae commodi, tempore
-        doloremque id labore rerum culpa praesentium, corporis exercitationem. Tenetur, assumenda architecto deleniti
-        accusantium tempore fugit aperiam similique! Exercitationem, tempora dolore. Reprehenderit aliquam dignissimos
-        possimus tempore soluta itaque, unde, doloribus accusamus cupiditate sapiente assumenda adipisci perferendis,
-        saepe quo ipsa beatae?
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis nam magni esse vitae commodi, tempore
-        doloremque id labore rerum culpa praesentium, corporis exercitationem. Tenetur, assumenda architecto deleniti
-        accusantium tempore fugit aperiam similique! Exercitationem, tempora dolore. Reprehenderit aliquam dignissimos
-        possimus tempore soluta itaque, unde, doloribus accusamus cupiditate sapiente assumenda adipisci perferendis,
-        saepe quo ipsa beatae?
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis nam magni esse vitae commodi, tempore
-        doloremque id labore rerum culpa praesentium, corporis exercitationem. Tenetur, assumenda architecto deleniti
-        accusantium tempore fugit aperiam similique! Exercitationem, tempora dolore. Reprehenderit aliquam dignissimos
-        possimus tempore soluta itaque, unde, doloribus accusamus cupiditate sapiente assumenda adipisci perferendis,
-        saepe quo ipsa beatae?
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis nam magni esse vitae commodi, tempore
-        doloremque id labore rerum culpa praesentium, corporis exercitationem. Tenetur, assumenda architecto deleniti
-        accusantium tempore fugit aperiam similique! Exercitationem, tempora dolore. Reprehenderit aliquam dignissimos
-        possimus tempore soluta itaque, unde, doloribus accusamus cupiditate sapiente assumenda adipisci perferendis,
-        saepe quo ipsa beatae?
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis nam magni esse vitae commodi, tempore
-        doloremque id labore rerum culpa praesentium, corporis exercitationem. Tenetur, assumenda architecto deleniti
-        accusantium tempore fugit aperiam similique! Exercitationem, tempora dolore. Reprehenderit aliquam dignissimos
-        possimus tempore soluta itaque, unde, doloribus accusamus cupiditate sapiente assumenda adipisci perferendis,
-        saepe quo ipsa beatae?
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis nam magni esse vitae commodi, tempore
-        doloremque id labore rerum culpa praesentium, corporis exercitationem. Tenetur, assumenda architecto deleniti
-        accusantium tempore fugit aperiam similique! Exercitationem, tempora dolore. Reprehenderit aliquam dignissimos
-        possimus tempore soluta itaque, unde, doloribus accusamus cupiditate sapiente assumenda adipisci perferendis,
-        saepe quo ipsa beatae?
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis nam magni esse vitae commodi, tempore
-        doloremque id labore rerum culpa praesentium, corporis exercitationem. Tenetur, assumenda architecto deleniti
-        accusantium tempore fugit aperiam similique! Exercitationem, tempora dolore. Reprehenderit aliquam dignissimos
-        possimus tempore soluta itaque, unde, doloribus accusamus cupiditate sapiente assumenda adipisci perferendis,
-        saepe quo ipsa beatae?
-            </p>
-        
-        </>
 
-    );
-}
+import { MarqueeTwo } from './Marquee';
+
+const Home = () => {
+  return (
+    <div className='Home-img-first'>
+       <img src="https://www.jagranimages.com/images/newimg/15022023/15_02_2023-ajay_kumar_singh_23330791.webp" alt="My Image" width="100%" />
+
+      {/* <--------------first Marquee------------> */}
+        <Marquee />
+      <div>
+      
+      {/* <--------------second Marquee------------> */}
+        <p>What's New</p>
+          <MarqueeTwo />
+      </div>
+      <Latest stateName="Jharkhand" />
+    </div>
+  );
+};
+
+
+
 export default Home;
+

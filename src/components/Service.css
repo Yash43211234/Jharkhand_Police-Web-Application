@@ -1,0 +1,54 @@
+.service-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .service-buttons {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 20px;
+  }
+  
+  .service-buttons button {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .service-buttons button.active {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .service-content {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 30px;
+    
+  }
+  .service-content div{
+    display: flex;
+    display: inline-block;
+    margin: 20px;
+  }
+  .service-content img{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+  }
+  
+  .service-content h2 {
+    color: #3498db;
+    
+  }
+  
+  .service-content p {
+    line-height: 1.6;
+   
+    
+   } 
