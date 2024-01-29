@@ -55,7 +55,7 @@
     position: relative;
   }
 
-.dropbtn  .active {
+.dropbtn a .active {
   color: rgb(10, 10, 10);
   background-color: rgb(244, 240, 240);
 }
@@ -92,4 +92,6 @@
   .dropdown:hover .dropdown-content {
     display: block;
   }
-  
+  .dropdown-content a{
+    font-size: 16px;
+}

@@ -1,0 +1,63 @@
+/* SettingsPopup.css */
+
+.settings-popup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black background */
+    z-index: 999; /* ensure it's on top of other content */
+  }
+  
+  .settings-popup-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* add a shadow effect */
+    width: 300px;
+  }
+  
+  .settings-popup-content h2 {
+    margin-top: 0;
+  }
+  
+  .settings-popup-content .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .settings-popup-content .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .settings-popup-content .form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .settings-popup-content button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  .settings-popup-content button:hover {
+    background-color: #0056b3;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  
