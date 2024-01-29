@@ -15,13 +15,13 @@ function Navbar() {
                 <li className="nav-item dropdown">
                     <a href="#" className="nav-link dropbtn">ABOUT US</a>
                     <div className="dropdown-content">
-                            <NavLink className="nav-link" to="/History"> History </NavLink>
-                            <NavLink className="nav-link" to="/charter"> Citizens Charter </NavLink>
-                            <NavLink className="nav-link" to="/appreciation"> Appreciation </NavLink>
-                            <NavLink className="nav-link" to="/medals"> Medals </NavLink>
-                            <NavLink className="nav-link" to="news"> In News </NavLink>
-                            <NavLink className="nav-link" to="/martyrs"> Martyrs </NavLink>
-                            <NavLink className="nav-link" to="/prectices"> Best Practices </NavLink>
+                            <NavLink className="nav-link " to="/History"> History </NavLink>
+                            <NavLink className="nav-link " to="/charter"> Citizens Charter </NavLink>
+                            <NavLink className="nav-link " to="/appreciation"> Appreciation </NavLink>
+                            <NavLink className="nav-link " to="/medals"> Medals </NavLink>
+                            <NavLink className="nav-link " to="news"> In News </NavLink>
+                            <NavLink className="nav-link " to="/martyrs"> Martyrs </NavLink>
+                            <NavLink className="nav-link " to="/prectices"> Best Practices </NavLink>
                     </div>
                    
                 </li>
@@ -33,8 +33,8 @@ function Navbar() {
                  
                     <a href="#" className="nav-link dropbtn">RECRUITMENT</a>
                     <div className="dropdown-content">
-                            <NavLink className="nav-link" to="/Recruitments"> Recruitments </NavLink>
-                            <NavLink className="nav-link" to="/Schools"> Results  </NavLink>
+                            <NavLink className="nav-link " to="/Recruitments"> Recruitments </NavLink>
+                            <NavLink className="nav-link " to="/Schools"> Results  </NavLink>
                    
                     </div>
                     
@@ -42,8 +42,8 @@ function Navbar() {
                 <li className="nav-item dropdown">
                     <a href="#" className="nav-link dropbtn">WELFARE</a>
                     <div className="dropdown-content">
-                            <NavLink className="nav-link" to="/Welfare"> Welfare </NavLink>
-                            <NavLink className="nav-link" to="/Schools"> Jharkhand  </NavLink>
+                            <NavLink className="nav-link " to="/Welfare"> Welfare </NavLink>
+                            <NavLink className="nav-link " to="/Schools"> Jharkhand  </NavLink>
                    
                     </div>
                 </li>
@@ -69,8 +69,8 @@ function Navbar() {
                     
                 <a href="#" className="nav-link dropbtn">CONTACT</a>
                 <div className="dropdown-content">
-                        <NavLink className="nav-link" to="contact">Important Contact </NavLink>
-                        <NavLink className="nav-link" to="/telephone"> Telephone Directory </NavLink>
+                        <NavLink className="nav-link " to="contact">Important Contact </NavLink>
+                        <NavLink className="nav-link " to="/telephone"> Telephone Directory </NavLink>
                    
                         </div>
                 </li>
