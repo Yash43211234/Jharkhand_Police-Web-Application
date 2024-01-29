@@ -1,4 +1,5 @@
 import React from 'react';
+impo
 
 const Charter = () => {
     const divStyle = {
@@ -11,7 +12,9 @@ const Charter = () => {
   return (
     <>
     <div style={divStyle}>
-    <h2>PDF Viewer</h2>
+     <h2>PDF Viewer </h2>
+     <h2>PDF Viewer </h2>
+  
       
     </div>
     </>
