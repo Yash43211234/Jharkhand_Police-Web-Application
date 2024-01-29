@@ -29,9 +29,7 @@ function Service() {
                     
                     <div class="service-icons">
 
-                        <div>
-                            hey this is service.
-                        </div>
+                        
 
                     <div class="service-icon">
                         <div className="service-icon-div"></div>
