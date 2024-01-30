@@ -23,7 +23,7 @@ function Navbar() {
                             <NavLink className="nav-link " to="/medals"> Medals </NavLink>
                             <NavLink className="nav-link " to="news"> In News </NavLink>
                             <NavLink className="nav-link " to="/martyrs"> Martyrs </NavLink>
-                            <NavLink className="nav-link " to="/prectices"> Best Practices </NavLink>
+                            <NavLink className="nav-link " to="/practices"> Best Practices </NavLink>
                     </div>
                    
                 </li>
@@ -71,7 +71,7 @@ function Navbar() {
                     
                 <a href="#" className="nav-link dropbtn">CONTACT</a>
                 <div className="dropdown-content">
-                        <NavLink className="nav-link " to="contact">Important Contact </NavLink>
+                        <NavLink className="nav-link " to="/contact">Important Contact </NavLink>
                         <NavLink className="nav-link " to="/telephone"> Telephone Directory </NavLink>
                    
                         </div>
