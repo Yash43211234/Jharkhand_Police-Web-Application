@@ -5,6 +5,8 @@ import { Link, NavLink } from "react-router-dom";
 
 function Navbar() {
     return (
+        
+            <>
         <div className="Navbar">
             <ul>
                 <li className="nav-item dropdown">
@@ -39,7 +41,7 @@ function Navbar() {
                     </div>
                     
                 </li>
-                <li className="nav-item dropdown">jdk
+                <li className="nav-item dropdown">
                     <a href="#" className="nav-link dropbtn">WELFARE</a>
                     <div className="dropdown-content">
                             <NavLink className="nav-link " to="/Welfare"> Welfare </NavLink>
@@ -50,7 +52,7 @@ function Navbar() {
                  
                 <li><NavLink className="nav-link" to="/feedback">FEEDBACK</NavLink></li>
               
-                {/* <li className="nav-item dropdown">
+                <li className="nav-item dropdown">
                    
                 <a href="#" className="nav-link dropbtn">USEFUL LINKS</a>
                 <div className="dropdown-content">
@@ -64,7 +66,7 @@ function Navbar() {
                         </div>
 
                    
-                </li> */}
+                </li>
                 <li className="nav-item dropdown">
                     
                 <a href="#" className="nav-link dropbtn">CONTACT</a>
@@ -79,6 +81,53 @@ function Navbar() {
             </ul>
 
         </div>
+
+        <style>
+            {
+                `
+                *{
+                    margin:0;
+                    padding:0;
+                    box-sizing:border-box;
+                    text-decoration:none;
+                    font-family:'poppins',sans-serif;
+                }
+                .Navbar a{
+                    font-size:16px;
+                }
+
+
+            .sub-nav-link {
+                font-size: 12px;
+            }
+            
+        
+           
+            
+            .copyright {
+                padding: 10px;
+                width: 100%;
+                background-color: rgba(0, 0, 70);
+                color: #fff;
+                font-size: 14px;
+                bottom: 0;
+            }
+            .page {
+                height: 340px;
+            }
+            
+            /*-----navbar css-------*/
+            
+            service-subset NavLink {
+                color: #03070b;
+                position: absolute;
+                background-color: white;
+            }
+            
+                `
+            }
+        </style>
+            </>
     );
 }
 export default Navbar;

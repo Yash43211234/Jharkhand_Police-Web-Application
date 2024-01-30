@@ -29,9 +29,9 @@ import StickySocialLinks from './components/StickySocialLinks';
 
 
 function App() {
-    return (
-        <>
-
+  return (
+    <>
+      
             <div className='App'>
                 <div id="divLang" class="contact-info d-flex align-items-center">
                     <div className='emergency-call-top'>
@@ -53,40 +53,40 @@ function App() {
                     </div>
                    
                 </div>
-                <BrowserRouter>
+        <BrowserRouter>
 
-                    <Navbar />
-            
+          <Navbar />
+          
 
                     <Routes>
-
+            
                         <Route path='/home' element={<Home />} />
 
-                        <Route path='/History' element={<History />} />
+            <Route path='/History' element={<History />} />
                         <Route path='/Appreciation' element={<Appreciation />} />
                         <Route path='/News' element={<News />} />
-                        <Route path='/Service' element={<Service />} />
+            <Route path='/Service' element={<Service />} />
                         <Route path='/ServiceList' element={<ServiceList />} />
-                        <Route path='/Recruitments' element={<Recruitments />} />
+            <Route path='/Recruitments' element={<Recruitments />} />
                         <Route path='/Initiative' element={<Initiative />} />
                         <Route path='/Charter' element={<Charter />} />
                         <Route path='/SignIn' element={<SignIn />} />
-                        <Route path='/Welfare' element={<Welfare />} />
-                        <Route path='/feedback' element={<Feedback />} />
-                        <Route path='/link' element={<Link />} />
+            <Route path='/Welfare' element={<Welfare />} />
+            <Route path='/feedback' element={<Feedback />} />
+            <Route path='/link' element={<Link />} />
 
 
-                        <Route path='/*' element={<Page404 />} />
-                    </Routes>
-                </BrowserRouter>
-            <StickySocialLinks/>
-                <FooterAbove />
-                -..............................................
-                <Footer />
-            </div>
+            <Route path='/*' element={<Page404 />} />
+          </Routes>
+        </BrowserRouter>
+<StickySocialLinks/>
+        <FooterAbove />
+        -..............................................
+        <Footer />
+      </div>
 
-        </>
-    );
+    </>
+  );
 }
 
 
