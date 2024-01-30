@@ -46,8 +46,9 @@ function SettingsMenu() {
             onChange={(e) => setSettings({...settings, language: e.target.value})} 
           >
             <option value="English">English</option>
-            <option value="Spanish">Spanish</option>
-            <option value="French">French</option>
+            
+            <option value="French">Hindi</option>
+            
           </select>
         </li>
       </ul>

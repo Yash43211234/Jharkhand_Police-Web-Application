@@ -32,8 +32,7 @@ function Service() {
 
                         
 
-                    <div class="service-icon">
-                    </div>
+                  
 
                     <div class="service-icon">
                     <a href="#" target="_blank">
@@ -77,7 +76,7 @@ function Service() {
                     <div class="service-icon">
                     <a href="#" target="_blank">
                     <img src="img/teft_e_fir.png " class="pp"></img>
-                                <h5 class="rajat"><span id="MainContent_SpanLostReport">Thefte FIR in city</span></h5>
+                                <h5 class="rajat"><span id="MainContent_SpanLostReport">Theft FIR in city</span></h5>
                            </a>
                     </div>
 
