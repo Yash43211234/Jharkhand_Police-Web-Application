@@ -1,5 +1,5 @@
 import React from 'react';
-impo
+
 
 const Charter = () => {
     const divStyle = {

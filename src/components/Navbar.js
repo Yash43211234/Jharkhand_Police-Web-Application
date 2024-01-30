@@ -39,7 +39,7 @@ function Navbar() {
                     </div>
                     
                 </li>
-                <li className="nav-item dropdown">
+                <li className="nav-item dropdown">jdk
                     <a href="#" className="nav-link dropbtn">WELFARE</a>
                     <div className="dropdown-content">
                             <NavLink className="nav-link " to="/Welfare"> Welfare </NavLink>
