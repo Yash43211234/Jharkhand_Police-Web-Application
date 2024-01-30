@@ -14,7 +14,7 @@ import ServiceList from "./List/ServiceList";
 import FooterAbove from "./components/FooterAbove";
 import Feedback from "./utils/Feedback";
 import Welfare from "./components/Welfare";
-import Link from "./components/Link";
+
 import CawIns from "./components/CawIns";
 
 function App() {
