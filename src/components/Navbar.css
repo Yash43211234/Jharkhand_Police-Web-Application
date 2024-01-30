@@ -41,7 +41,7 @@
 /*-----navbar css-------*/
 
 service-subset NavLink {
-  color: #03070b;
+  color: black;
   position: absolute;
-  background-color: white;
+  background-color: rgb(219, 28, 28);
 }
