@@ -1,3 +1,39 @@
-.c {
-  color: aliceblue;
+tr td {
+  width: 1500px;
+}
+
+.tb {
+  border: 10px;
+  padding: 20px;
+  margin: 20px;
+  text-emphasis: none;
+  text-decoration: none;
+  text-transform: none;
+  text-align: center;
+}
+
+a {
+  display: block;
+  padding: 10px 15px;
+  color: rgb(54, 54, 136);
+  text-decoration: none;
+  text-align: left;
+  font-size: 20px;
+}
+
+.text-center.dis.mb-5 {
+  text-align: center;
+}
+
+.white {
+  background-color: #fff;
+}
+
+.grey {
+  background-color: rgb(228, 228, 228);
+}
+
+.table.table-striped thead tr td {
+  text-emphasis: none;
+  text-align: center;
 }
