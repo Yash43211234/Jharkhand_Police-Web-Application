@@ -4,7 +4,6 @@ import './Marquee.css';
 import Marquee from './Marquee';
 import Latest from './Latest';
 
-
 import { MarqueeTwo } from './Marquee';
 
 const Home = () => {
