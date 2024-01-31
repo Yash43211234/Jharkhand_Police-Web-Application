@@ -43,5 +43,5 @@
 service-subset NavLink {
   color: black;
   position: absolute;
-  background-color: rgb(219, 28, 28);
+  background-color: white;
 }
