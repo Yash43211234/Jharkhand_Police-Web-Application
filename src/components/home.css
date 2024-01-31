@@ -18,12 +18,6 @@
   align-items: center;
 }
 
-select {
-  background: #00123c;
-  color: white;
-  border: 1px solid #00123c;
-}
-
 .Navbar li {
   border: 0;
   display: inline-block;
@@ -49,11 +43,19 @@ select {
 }
 
 /*
-  .nav-link:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  */
+
+.nav-link:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+*/
+
+select {
+  color: #ddd;
+  background-color: rgb(10, 10, 10);
+  border: 1px solid rgb(10, 10, 10);
+}
 
 /* Dropdown CSS */
 .dropdown {

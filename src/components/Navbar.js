@@ -15,7 +15,7 @@ function Navbar() {
           </li>
           <li className="nav-item dropdown">
             <a href="#" className="nav-link dropbtn">
-              ABOUT US
+              ABOUT US <select></select>
             </a>
             <div className="dropdown-content">
               <NavLink className="nav-link " to="/History">
@@ -67,7 +67,7 @@ function Navbar() {
           </li>
           <li className="nav-item dropdown">
             <a href="#" className="nav-link dropbtn">
-              RECRUITMENT
+              RECRUITMENT <select></select>
             </a>
             <div className="dropdown-content">
               <NavLink className="nav-link " to="/Recruitments">
@@ -82,7 +82,7 @@ function Navbar() {
           </li>
           <li className="nav-item dropdown">
             <a href="#" className="nav-link dropbtn">
-              WELFARE
+              WELFARE <select></select>
             </a>
             <div className="dropdown-content">
               <NavLink className="nav-link " to="/Welfare">
@@ -104,7 +104,7 @@ function Navbar() {
 
           <li className="nav-item dropdown">
             <a href="#" className="nav-link dropbtn">
-              USEFUL LINKS
+              USEFUL LINKS <select></select>
             </a>
             <div className="dropdown-content">
               <NavLink className="nav-link" to="Yoga">
@@ -139,7 +139,7 @@ function Navbar() {
           </li>
           <li className="nav-item dropdown">
             <a href="#" className="nav-link dropbtn">
-              CONTACT
+              CONTACT <select></select>
             </a>
             <div className="dropdown-content">
               <NavLink className="nav-link " to="/contact">
