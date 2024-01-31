@@ -1,5 +1,5 @@
 import {Link,NavLink} from 'react-router-dom'
-import './Navbar.css'
+
 
 import React from "react";
 function Login(){
