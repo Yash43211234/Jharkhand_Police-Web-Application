@@ -56,7 +56,7 @@ function Navbar() {
                    
                 <a href="#" className="nav-link dropbtn">USEFUL LINKS</a>
                 <div className="dropdown-content">
-                            <NavLink className="nav-link" to="Yoga"> Funds For Yoga </NavLink>
+                            <NavLink className="nav-link" to="/Yoga"> Funds For Yoga </NavLink>
                             <NavLink className="nav-link" to="/Acts"> Acts and Rules </NavLink>
                             <NavLink className="nav-link" to="/Orders"> Circulars/Orders </NavLink>
                             <NavLink className="nav-link" to="/Kissa"> Kissa khaki ka</NavLink>

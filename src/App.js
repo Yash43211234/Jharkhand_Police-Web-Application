@@ -28,6 +28,8 @@ import StickySocialLinks from './components/StickySocialLinks';
 
 
 
+
+
 function App() {
   return (
     <>
@@ -60,8 +62,8 @@ function App() {
 
           <Routes>
 
+            <Route path='/' element={<Home />} />
             <Route path='/home' element={<Home />} />
-
             <Route path='/History' element={<History />} />
             <Route path='/Appreciation' element={<Appreciation />} />
             <Route path='/News' element={<News />} />
@@ -75,11 +77,11 @@ function App() {
             <Route path='/feedback' element={<Feedback />} />
             <Route path='/link' element={<Link />} />
 
-            <Route path='/' element={<Home />} />
             <Route path='/*' element={<Page404 />} />
           </Routes>
         </BrowserRouter>
         <StickySocialLinks />
+      
         <FooterAbove />
         -..............................................
         <Footer />

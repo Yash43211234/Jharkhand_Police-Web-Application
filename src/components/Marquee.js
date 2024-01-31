@@ -23,7 +23,9 @@ const Marquee = () => {
 // Named export for MarqueeTwo
 export const MarqueeTwo = () => {
   return (
-    <div>Welcome to the site.</div>
+    <div>
+        <marquee>Welcome to the site.</marquee>
+    </div>
   );
 };
 

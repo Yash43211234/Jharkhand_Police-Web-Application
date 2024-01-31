@@ -3,24 +3,75 @@ import './home.css';
 import './Marquee.css';
 import Marquee from './Marquee';
 import Latest from './Latest';
+import HomeVideos from './HomeVideos';
+import ImageSlider from './ImageSlider';
 
 import { MarqueeTwo } from './Marquee';
 
 const Home = () => {
-  return (
-    <div className='Home-img-first'>
-       <img src="https://www.jagranimages.com/images/newimg/15022023/15_02_2023-ajay_kumar_singh_23330791.webp" alt="My Image" width="100%" />
+  
+    const HomeFirstImages = [
+      'img/pak.png',
+      'img/2.png',
+      'img/3.png',
+    ];
 
-      {/* <--------------first Marquee------------> */}
+
+
+  const images = [
+    'img/pak.png',
+    'img/2.png',
+    'img/3.png',
+  ];
+
+
+  return (
+    <>
+   
+{/* <------------------image slider start-----------> */}
+    <div className="app">
+         
+          <ImageSlider images={HomeFirstImages} />
+        </div>
+{/* <------------------image slider end-----------> */}
+
+
+
+{/* <--------------first Marquee start------------> */}
         <Marquee />
-      <div>
-      
-      {/* <--------------second Marquee------------> */}
-        <p>What's New</p>
-          <MarqueeTwo />
-      </div>
+{/* <--------------first Marquee end------------> */}
+     
+     
+
+{/* <--------------Latest News start------------> */}   
       <Latest stateName="Jharkhand" />
+{/* <--------------Latest News end------------> */}    
+
+
+
+{/* <--------------HomeVideos Marquee start------------> */}    
+      <HomeVideos/>
+{/* <--------------HomeVideos Marquee start------------> */}
+
+
+
+
+{/* <--------------second Marquee start------------> */}
+          <MarqueeTwo />
+{/* <--------------second Marquee end------------> */}
+
+
+
+
+
+{/* <------------------image slider start-----------> */}
+     <div className="app">
+     
+      <ImageSlider images={images} />
     </div>
+{/* <------------------image slider end-----------> */}
+
+    </>
   );
 };
 
