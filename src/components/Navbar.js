@@ -1,9 +1,10 @@
-import './home.css';
+import "./home.css";
 
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 
 function Navbar() {
+
     return (
         
             <>
@@ -65,26 +66,114 @@ function Navbar() {
                             <NavLink className="nav-link" to="/Weekly"> Weekly Practices </NavLink>
                         </div>
 
-                   
-                </li>
-                <li className="nav-item dropdown">
-                    
-                <a href="#" className="nav-link dropbtn">CONTACT</a>
-                <div className="dropdown-content">
-                        <NavLink className="nav-link " to="/contact">Important Contact </NavLink>
-                        <NavLink className="nav-link " to="/telephone"> Telephone Directory </NavLink>
-                   
-                        </div>
-                </li>
-               
 
-            </ul>
+          <li>
+            <NavLink className="nav-link" to="/Service">
+              SERVICES{" "}
+            </NavLink>
+          </li>
+          <li>
+            <NavLink className="nav-link" to="/initiative">
+              {" "}
+              INITIATIVE{" "}
+            </NavLink>
+          </li>
+          <li>
+            <NavLink className="nav-link" to="/statistics">
+              STATISTICS
+            </NavLink>
+          </li>
+          <li className="nav-item dropdown">
+            <a href="#" className="nav-link dropbtn">
+              RECRUITMENT <select></select>
+            </a>
+            <div className="dropdown-content">
+              <NavLink className="nav-link " to="/Recruitments">
+                {" "}
+                Recruitments{" "}
+              </NavLink>
+              <NavLink className="nav-link " to="/Schools">
+                {" "}
+                Results{" "}
+              </NavLink>
+            </div>
+          </li>
+          <li className="nav-item dropdown">
+            <a href="#" className="nav-link dropbtn">
+              WELFARE <select></select>
+            </a>
+            <div className="dropdown-content">
+              <NavLink className="nav-link " to="/Welfare">
+                {" "}
+                Welfare{" "}
+              </NavLink>
+              <NavLink className="nav-link " to="/Schools">
+                {" "}
+                Jharkhand{" "}
+              </NavLink>
+            </div>
+          </li>
 
-        </div>
+          <li>
+            <NavLink className="nav-link" to="/feedback">
+              FEEDBACK
+            </NavLink>
+          </li>
 
-        <style>
-            {
-                `
+          <li className="nav-item dropdown">
+            <a href="#" className="nav-link dropbtn">
+              USEFUL LINKS <select></select>
+            </a>
+            <div className="dropdown-content">
+              <NavLink className="nav-link" to="Yoga">
+                {" "}
+                Funds For Yuva{" "}
+              </NavLink>
+              <NavLink className="nav-link" to="/Acts">
+                {" "}
+                Acts and Rules{" "}
+              </NavLink>
+              <NavLink className="nav-link" to="/Orders">
+                {" "}
+                Laws and Orders{" "}
+              </NavLink>
+              <NavLink className="nav-link" to="/Kissa">
+                {" "}
+                Kissa khaki ka
+              </NavLink>
+              <NavLink className="nav-link" to="Podcasts">
+                {" "}
+                Podcasts
+              </NavLink>
+              <NavLink className="nav-link" to="/Gadgets">
+                {" "}
+                Jharkhand Police Gadgets{" "}
+              </NavLink>
+              <NavLink className="nav-link" to="/Weekly">
+                {" "}
+                Weekly Practices{" "}
+              </NavLink>
+            </div>
+          </li>
+          <li className="nav-item dropdown">
+            <a href="#" className="nav-link dropbtn">
+              CONTACT <select></select>
+            </a>
+            <div className="dropdown-content">
+              <NavLink className="nav-link " to="/contact">
+                Important Contact{" "}
+              </NavLink>
+              <NavLink className="nav-link " to="/telephone">
+                {" "}
+                Telephone Directory{" "}
+              </NavLink>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <style>
+        {`
                 *{
                     margin:0;
                     padding:0;
@@ -124,10 +213,9 @@ function Navbar() {
                 background-color: white;
             }
             
-                `
-            }
-        </style>
-            </>
-    );
+                `}
+      </style>
+    </>
+  );
 }
 export default Navbar;
