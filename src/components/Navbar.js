@@ -109,7 +109,7 @@ function Navbar() {
             <div className="dropdown-content">
               <NavLink className="nav-link" to="Yoga">
                 {" "}
-                Funds For Yoga{" "}
+                Funds For Yuva{" "}
               </NavLink>
               <NavLink className="nav-link" to="/Acts">
                 {" "}
@@ -117,7 +117,7 @@ function Navbar() {
               </NavLink>
               <NavLink className="nav-link" to="/Orders">
                 {" "}
-                Circulars/Orders{" "}
+                Laws and Orders{" "}
               </NavLink>
               <NavLink className="nav-link" to="/Kissa">
                 {" "}

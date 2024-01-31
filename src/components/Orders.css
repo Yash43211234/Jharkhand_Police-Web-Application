@@ -1,0 +1,28 @@
+a {
+  display: block;
+  padding: 10px 15px;
+  color: rgb(54, 54, 136);
+  text-decoration: none;
+  text-align: left;
+  font-size: 20px;
+}
+
+.white {
+  background-color: #fff;
+}
+
+.grey {
+  background-color: rgb(228, 228, 228);
+}
+
+.text-center.dis.mb-5 {
+  text-align: center;
+}
+
+h3 {
+  width: 1500px;
+}
+
+td {
+  padding: 20px;
+}
