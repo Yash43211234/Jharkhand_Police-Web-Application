@@ -1,11 +1,12 @@
 import React from 'react';
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaYoutube } from 'react-icons/fa';
 
-function StickySocialLinks() {
+function Stickyright() {
   return (
     <>
-      <div className="sticky-social-links">
-      
+      <div className="sticky-links">
+       
+        
 
       <a href="https://www.facebook.com" className="social-link" target="_blank" rel="noopener noreferrer">
         <FaFacebook  className=" largeIcon" size={22} style={{ marginRight: '10px' }} />
@@ -13,8 +14,10 @@ function StickySocialLinks() {
       <a href="https://twitter.com" className="social-link" target="_blank" rel="noopener noreferrer">
         <FaTwitter  className="largeIcon" size={22} style={{ marginRight: '10px' }} />
       </a>
+      
       <a href="https://www.instagram.com"  className="social-link "target="_blank" rel="noopener noreferrer">
         <FaInstagram className="largeIcon" size={22} />
+
       </a> <a href="https://www.linkedin.com" className="social-link " target="_blank" rel="noopener noreferrer">
         <FaLinkedin size={22} style={{ marginRight: '10px' }} />
       </a>
@@ -22,51 +25,43 @@ function StickySocialLinks() {
       <a href="https://www.youtube.com" className="social-link " target="_blank" rel="noopener noreferrer">
         <FaYoutube size={22} />
       </a>
-        
-        {/* Add more social links as needed */}
+       
+       
+       
       </div>
       <style>
         {
           `
-          /* StickySocialLinks.css */
-          .sticky-social-links {
+          /* Stickyright.css */
+          .sticky-links {
               position: fixed;
               top: 50%;
               transform: translateY(-50%);
-              left: -10px;
+              right: 0px;
               display: flex;
               flex-direction: column;
-              gap: 0px;
-              padding: 10px;
+              
               border-radius: 5px;
               z-index: 999;
+              
           }
-
          
           .social-link {
               color: white;
               width: 50px;
-              font-size: 20px;
+              height:35px;
+              font-size: 10px;
               text-decoration: none;
-              margin:1px;
-              text-align:center;
-              
-              border-radius: 3px;
-              
+              padding: 8px 15px;
+              border-radius: 2px;
+              background-color: #3586b3;
               transition: background-color 0.3s ease;
           }
 
-          
           .social-link:hover {
               background-color: #0056b3;
           }
-          
 
-          .sticky-social-links a:hover {
-              width: 200px;
-              text-aling: left;
-              border-radius:0px 12px 12px 0px;
-          }
         
           `
         }
@@ -75,4 +70,4 @@ function StickySocialLinks() {
   );
 }
 
-export default StickySocialLinks;
+export default Stickyright;

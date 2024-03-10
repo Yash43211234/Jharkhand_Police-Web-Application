@@ -1,41 +1,22 @@
+import React from 'react'
 
-
-
-
-import React from 'react';
-import './Service.css';
-
-const Initiative = () => {
+function Initiative() {
   return (
-    
-   <div className='service-content'>
-   <div class="service-icon">
-                        <img src="https://tse4.mm.bing.net/th?id=OIP.8fbVqjWUNx71YpWdrRoKRQHaFj&pid=Api&P=0&h=180.jpg" alt="Service 1"></img>
-                            <p>Service 1</p>
-                    </div>
-                    <div class="service-icon">
-                        <img src="https://tse4.mm.bing.net/th?id=OIP.8fbVqjWUNx71YpWdrRoKRQHaFj&pid=Api&P=0&h=180.png" alt="Service 2"></img>
-                            <p>Service 2</p>
-                    </div>
-                    <div class="service-icon">
-                        <img src="https://tse4.mm.bing.net/th?id=OIP.8fbVqjWUNx71YpWdrRoKRQHaFj&pid=Api&P=0&h=180.png" alt="Service 1"></img>
-                            <p>Service 1</p>
-            </div>
-            <div class="service-icon">
-                        <img src="https://tse4.mm.bing.net/th?id=OIP.8fbVqjWUNx71YpWdrRoKRQHaFj&pid=Api&P=0&h=180.png" alt="Service 2"></img>
-                            <p>Service 2</p>
-                    </div>
-                    <div class="service-icon">
-                        <img src="https://tse4.mm.bing.net/th?id=OIP.8fbVqjWUNx71YpWdrRoKRQHaFj&pid=Api&P=0&h=180.png" alt="Service 1"></img>
-                            <p>Service 1</p>
-            </div>
-   </div>
+    <>
+    <div className='initiative'>
+      THIS SECTION IS UNDER PROCESS
+    </div>
+    <style>
+        {
+            `
+            .initiative{
+                height:500px;
+            }
+            `
+        }
+    </style>
+    </>
+  )
+}
 
-    
-  );
-};
-
-
-
-export default Initiative;
-
+export default Initiative
