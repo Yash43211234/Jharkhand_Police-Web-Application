@@ -5,156 +5,62 @@ import { Link, NavLink } from "react-router-dom";
 
 function Navbar() {
 
-    return (
-        
-            <>
-        <div className="Navbar">
-            <ul>
-                <li className="nav-item dropdown">
-              
-                <NavLink className="nav-link" to="/Home">HOME </NavLink>
-                    
-                </li>
-                <li className="nav-item dropdown">
-                    <a href="#" className="nav-link dropbtn">ABOUT US</a>
-                    <div className="dropdown-content">
-                            <NavLink className="nav-link " to="/History"> History </NavLink>
-                            <NavLink className="nav-link " to="/charter"> Citizens Charter </NavLink>
-                            <NavLink className="nav-link " to="/appreciation"> Appreciation </NavLink>
-                            <NavLink className="nav-link " to="/medals"> Medals </NavLink>
-                            <NavLink className="nav-link " to="news"> In News </NavLink>
-                            <NavLink className="nav-link " to="/martyrs"> Martyrs </NavLink>
-                            <NavLink className="nav-link " to="/practices"> Best Practices </NavLink>
-                    </div>
-                   
-                </li>
+  return (
 
-                <li><NavLink className="nav-link" to="/Service">SERVICES </NavLink></li>
-                <li><NavLink className="nav-link" to="/initiative"> INITIATIVE </NavLink></li>
-                <li><NavLink className="nav-link" to="/statistics">STATISTICS</NavLink></li>
-                <li className="nav-item dropdown">
-                 
-                    <a href="#" className="nav-link dropbtn">RECRUITMENT</a>
-                    <div className="dropdown-content">
-                            <NavLink className="nav-link " to="/Recruitments"> Recruitments </NavLink>
-                            <NavLink className="nav-link " to="/Schools"> Results  </NavLink>
-                   
-                    </div>
-                    
-                </li>
-                <li className="nav-item dropdown">
-                    <a href="#" className="nav-link dropbtn">WELFARE</a>
-                    <div className="dropdown-content">
-                            <NavLink className="nav-link " to="/Welfare"> Welfare </NavLink>
-                            <NavLink className="nav-link " to="/Schools"> Jharkhand  </NavLink>
-                   
-                    </div>
-                </li>
-                 
-                <li><NavLink className="nav-link" to="/feedback">FEEDBACK</NavLink></li>
-              
-                <li className="nav-item dropdown">
-                   
-                <a href="#" className="nav-link dropbtn">USEFUL LINKS</a>
-                <div className="dropdown-content">
-                            <NavLink className="nav-link" to="/Yoga"> Funds For Yoga </NavLink>
-                            <NavLink className="nav-link" to="/Acts"> Acts and Rules </NavLink>
-                            <NavLink className="nav-link" to="/Orders"> Circulars/Orders </NavLink>
-                            <NavLink className="nav-link" to="/Kissa"> Kissa khaki ka</NavLink>
-                            <NavLink className="nav-link" to="Podcasts"> Podcasts</NavLink>
-                            <NavLink className="nav-link" to="/Gadgets"> Jharkhand Police Gadgets </NavLink>
-                            <NavLink className="nav-link" to="/Weekly"> Weekly Practices </NavLink>
-                        </div>
+    <>
+      <div className="Navbar">
+        <ul>
+          <li className="nav-item dropdown">
 
+            <NavLink className="nav-link" to="/Home">HOME </NavLink>
 
-          <li>
-            <NavLink className="nav-link" to="/Service">
-              SERVICES{" "}
-            </NavLink>
-          </li>
-          <li>
-            <NavLink className="nav-link" to="/initiative">
-              {" "}
-              INITIATIVE{" "}
-            </NavLink>
-          </li>
-          <li>
-            <NavLink className="nav-link" to="/statistics">
-              STATISTICS
-            </NavLink>
           </li>
           <li className="nav-item dropdown">
-            <a href="#" className="nav-link dropbtn">
-              RECRUITMENT <select></select>
-            </a>
+            <a href="#" className="nav-link dropbtn">ABOUT US</a>
             <div className="dropdown-content">
-              <NavLink className="nav-link " to="/Recruitments">
-                {" "}
-                Recruitments{" "}
-              </NavLink>
-              <NavLink className="nav-link " to="/Schools">
-                {" "}
-                Results{" "}
-              </NavLink>
+              <NavLink className="nav-link " to="/History"> History </NavLink>
+              <NavLink className="nav-link " to="/charter"> Citizens Charter </NavLink>
+              <NavLink className="nav-link " to="/Appreciation"> Appreciation </NavLink>
+              <NavLink className="nav-link " to="/Medal"> Medals </NavLink>
+              <NavLink className="nav-link " to="news"> In News </NavLink>
+              <NavLink className="nav-link " to="/martyrs"> Martyrs </NavLink>
+              <NavLink className="nav-link " to="/practices"> Best Practices </NavLink>
             </div>
+
           </li>
+
+          <li><NavLink className="nav-link" to="/Service">SERVICES </NavLink></li>
+          <li><NavLink className="nav-link" to="/initiative"> INITIATIVE </NavLink></li>
+          <li><NavLink className="nav-link" to="/statistics">STATISTICS</NavLink></li>
           <li className="nav-item dropdown">
-            <a href="#" className="nav-link dropbtn">
-              WELFARE <select></select>
-            </a>
+
+            <a href="#" className="nav-link dropbtn">RECRUITMENT</a>
             <div className="dropdown-content">
-              <NavLink className="nav-link " to="/Welfare">
-                {" "}
-                Welfare{" "}
-              </NavLink>
-              <NavLink className="nav-link " to="/Schools">
-                {" "}
-                Jharkhand{" "}
-              </NavLink>
+              <NavLink className="nav-link " to="/Recruitments"> Recruitments </NavLink>
+              <NavLink className="nav-link " to="/Result"> Results  </NavLink>
+
+            </div>
+
+          </li>
+
+          <li><NavLink className="nav-link" to="/welfare">WELFARE</NavLink></li>
+          <li><NavLink className="nav-link" to="/feedback">FEEDBACK</NavLink></li>
+
+          <li className="nav-item dropdown">
+
+            <a href="#" className="nav-link dropbtn">USEFUL LINKS</a>
+            <div className="dropdown-content">
+              <NavLink className="nav-link" to="/YogafunPages"> Funds For Yuva </NavLink>
+              <NavLink className="nav-link" to="/Act"> Acts and Rules </NavLink>
+              <NavLink className="nav-link" to="/Orders"> Circulars/Orders </NavLink>
+              <NavLink className="nav-link" to="/JharkhandWeeklyPractices"> Weekly Practices </NavLink>
+              <NavLink className="nav-link" to="/JpGp"> Jharkhand Police Gadgets </NavLink>
+              <NavLink className="nav-link" to="/Kissa"> Kissa khaki ka</NavLink>
+              <NavLink className="nav-link" to="Podcasts"> Podcasts</NavLink>
             </div>
           </li>
 
-          <li>
-            <NavLink className="nav-link" to="/feedback">
-              FEEDBACK
-            </NavLink>
-          </li>
 
-          <li className="nav-item dropdown">
-            <a href="#" className="nav-link dropbtn">
-              USEFUL LINKS <select></select>
-            </a>
-            <div className="dropdown-content">
-              <NavLink className="nav-link" to="Yoga">
-                {" "}
-                Funds For Yuva{" "}
-              </NavLink>
-              <NavLink className="nav-link" to="/Acts">
-                {" "}
-                Acts and Rules{" "}
-              </NavLink>
-              <NavLink className="nav-link" to="/Orders">
-                {" "}
-                Laws and Orders{" "}
-              </NavLink>
-              <NavLink className="nav-link" to="/Kissa">
-                {" "}
-                Kissa khaki ka
-              </NavLink>
-              <NavLink className="nav-link" to="Podcasts">
-                {" "}
-                Podcasts
-              </NavLink>
-              <NavLink className="nav-link" to="/Gadgets">
-                {" "}
-                Jharkhand Police Gadgets{" "}
-              </NavLink>
-              <NavLink className="nav-link" to="/Weekly">
-                {" "}
-                Weekly Practices{" "}
-              </NavLink>
-            </div>
-          </li>
           <li className="nav-item dropdown">
             <a href="#" className="nav-link dropbtn">
               CONTACT <select></select>

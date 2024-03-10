@@ -4,7 +4,7 @@ function HomeVideos() {
     return (
         <div>
             <div class="video-container">
-                <div>
+            <div class="video-container">
                 <video controls>
                     <source src="video.mp4" type="video/mp4"></source>
                  
@@ -29,15 +29,19 @@ function HomeVideos() {
                     `
                           
                 .video-container {
-                max-width: 800px;
-                margin: 0 auto;
+                max-width: 600px;
+                display:flex;
+                display:inline-block;
                 height:400px;
+                margin:10px;
+                
                 }
 
                 video {
-                width: 100%;
-                height: auto;
+                width: 600px;
+            
                 display: block;
+                border-radius:10px;
                 }
 
               
