@@ -111,7 +111,7 @@ function Navbar() {
                 {" "}
                 Funds For Yoga{" "}
               </NavLink>
-              <NavLink className="nav-link" to="/Acts">
+              <NavLink className="nav-link" to="/Act">
                 {" "}
                 Acts and Rules{" "}
               </NavLink>

@@ -24,8 +24,7 @@ import Initiative from "./components/Initiative";
 import Charter from "./components/Charter";
 import StickySocialLinks from "./components/StickySocialLinks";
 import Orders from "./components/Orders";
-
-
+import Act from "./components/Act";
 
 function App() {
   return (
@@ -53,10 +52,8 @@ function App() {
           <Navbar />
 
           <Routes>
+            <Route path="/" element={<Home />} />
 
-
-            <Route path='/' element={<Home />} />
-        
             <Route path="/home" element={<Home />} />
 
             <Route path="/History" element={<History />} />
@@ -72,16 +69,16 @@ function App() {
             <Route path="/feedback" element={<Feedback />} />
             <Route path="/link" element={<Link />} />
             <Route path="/Orders" element={<Orders />} />
+            <Route path="/Act" element={<Act />} />
 
             <Route path="/" element={<Home />} />
             <Route path="/*" element={<Page404 />} />
-
           </Routes>
         </BrowserRouter>
         <StickySocialLinks />
-      
+
         <FooterAbove />
-       
+
         <Footer />
       </div>
     </>
