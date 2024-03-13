@@ -1,37 +1,67 @@
-import React from 'react';
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaYoutube } from 'react-icons/fa';
+import React from "react";
+import {
+  FaFacebook,
+  FaTwitter,
+  FaInstagram,
+  FaLinkedin,
+  FaYoutube,
+} from "react-icons/fa";
 
 function Stickyright() {
   return (
     <>
       <div className="sticky-links">
-       
-        
-
-      <a href="https://www.facebook.com" className="social-link" target="_blank" rel="noopener noreferrer">
-        <FaFacebook  className=" largeIcon" size={22} style={{ marginRight: '10px' }} />
-      </a>
-      <a href="https://twitter.com" className="social-link" target="_blank" rel="noopener noreferrer">
-        <FaTwitter  className="largeIcon" size={22} style={{ marginRight: '10px' }} />
-      </a>
-      
-      <a href="https://www.instagram.com"  className="social-link "target="_blank" rel="noopener noreferrer">
-        <FaInstagram className="largeIcon" size={22} />
-
-      </a> <a href="https://www.linkedin.com" className="social-link " target="_blank" rel="noopener noreferrer">
-        <FaLinkedin size={22} style={{ marginRight: '10px' }} />
-      </a>
-     
-      <a href="https://www.youtube.com" className="social-link " target="_blank" rel="noopener noreferrer">
-        <FaYoutube size={22} />
-      </a>
-       
-       
-       
+        <a
+          href="https://www.facebook.com"
+          className="social-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaFacebook
+            className=" largeIcon"
+            size={22}
+            style={{ marginRight: "10px" }}
+          />
+        </a>
+        <a
+          href="https://twitter.com"
+          className="social-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaTwitter
+            className="largeIcon"
+            size={22}
+            style={{ marginRight: "10px" }}
+          />
+        </a>
+        <a
+          href="https://www.instagram.com"
+          className="social-link "
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaInstagram className="largeIcon" size={22} />
+        </a>{" "}
+        <a
+          href="https://www.linkedin.com"
+          className="social-link "
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaLinkedin size={22} style={{ marginRight: "10px" }} />
+        </a>
+        <a
+          href="https://www.youtube.com"
+          className="social-link "
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaYoutube size={22} />
+        </a>
       </div>
       <style>
-        {
-          `
+        {`
           /* Stickyright.css */
           .sticky-links {
               position: fixed;
@@ -63,8 +93,7 @@ function Stickyright() {
           }
 
         
-          `
-        }
+          `}
       </style>
     </>
   );
