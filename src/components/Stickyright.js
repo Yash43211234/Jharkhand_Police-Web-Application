@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaYoutube } from 'react-icons/fa';
+import {  FaLightbulb, FaRoad,FaExclamationTriangle, FaTrafficLight, FaPhoneAlt } from 'react-icons/fa';
 
 function Stickyright() {
   return (
@@ -8,22 +8,22 @@ function Stickyright() {
        
         
 
-      <a href="https://www.facebook.com" className="social-link" target="_blank" rel="noopener noreferrer">
-        <FaFacebook  className=" largeIcon" size={22} style={{ marginRight: '10px' }} />
+      <a href="https://www.jhpolice.gov.in/cyber-crime" className="social-link" target="_blank" rel="noopener noreferrer">
+        <FaExclamationTriangle  className=" largeIcon" size={22} style={{ marginRight: '10px' }} />
       </a>
-      <a href="https://twitter.com" className="social-link" target="_blank" rel="noopener noreferrer">
-        <FaTwitter  className="largeIcon" size={22} style={{ marginRight: '10px' }} />
+      <a href="https://www.jhpolice.gov.in/traffic-rules" className="social-link" target="_blank" rel="noopener noreferrer">
+        <FaTrafficLight  className="largeIcon" size={22} style={{ marginRight: '10px' }} />
       </a>
       
-      <a href="https://www.instagram.com"  className="social-link "target="_blank" rel="noopener noreferrer">
-        <FaInstagram className="largeIcon" size={22} />
+      <a href="https://www.jhpolice.gov.in/helpline"  className="social-link "target="_blank" rel="noopener noreferrer">
+        <FaPhoneAlt className="largeIcon" size={22} />
 
-      </a> <a href="https://www.linkedin.com" className="social-link " target="_blank" rel="noopener noreferrer">
-        <FaLinkedin size={22} style={{ marginRight: '10px' }} />
+      </a> <a href="https://www.jhpolice.gov.in/crime-prevention-tips" className="social-link " target="_blank" rel="noopener noreferrer">
+        <FaLightbulb size={22} style={{ marginRight: '10px' }} />
       </a>
      
-      <a href="https://www.youtube.com" className="social-link " target="_blank" rel="noopener noreferrer">
-        <FaYoutube size={22} />
+      <a href="https://www.jhpolice.gov.in/traffic-advisories" className="social-link " target="_blank" rel="noopener noreferrer">
+        <FaRoad size={22} />
       </a>
        
        

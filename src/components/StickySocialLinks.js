@@ -7,10 +7,10 @@ function StickySocialLinks() {
       <div className="sticky-social-links">
       
 
-      <a href="https://www.facebook.com" className="social-link" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.facebook.com/jharkhandpolice" className="social-link" target="_blank" rel="noopener noreferrer">
         <FaFacebook  className=" largeIcon" size={22} style={{ marginRight: '10px' }} />
       </a>
-      <a href="https://twitter.com" className="social-link" target="_blank" rel="noopener noreferrer">
+      <a href="https://twitter.com/jhpolicejharkhand" className="social-link" target="_blank" rel="noopener noreferrer">
         <FaTwitter  className="largeIcon" size={22} style={{ marginRight: '10px' }} />
       </a>
       <a href="https://www.instagram.com"  className="social-link "target="_blank" rel="noopener noreferrer">
@@ -58,7 +58,7 @@ function StickySocialLinks() {
 
           
           .social-link:hover {
-              background-color: #0056b3;
+            background-color: hsl(60, 100%, 40%); /* Deeper Yellow */
           }
           
 

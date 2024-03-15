@@ -1,6 +1,6 @@
 
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Link, NavLink } from "react-router-dom";
+
+
 
 function Footer(){
     return(
@@ -13,7 +13,23 @@ function Footer(){
               <p>© Copyright Jharkand Police 2021 All Right Reserved. Disclaimer | Privacy Policy Designed & Developed by G8</p>
                
             </div>
-           
+           <style>
+            {
+                `
+                
+        .foot{
+          
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            background: #00123c;
+            color: aliceblue;
+            padding: 10px;
+          
+          }
+                `
+            }
+           </style>
         </>
     );
 }
