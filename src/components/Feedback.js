@@ -1,167 +1,154 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
+function Feedback() {
+  const [feedbacks, setFeedbacks] = useState([]);
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
 
-const Feedback = () => {
-
-  //initialize state
-  const [formData, setFormData] = useState({
-    name: '',
-    message: ''
-
-  });
-
-  const handleChange = (event) => {
-    const { name, value } = event.target;
-    setFormData({ ...formData, [name]: value });
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const result = await axios.post('http://localhost:3001/feedpost', {
+        name,
+        email,
+        message
+      });
+      if (result) {
+        console.log("okay");
+        fetchFeedbacks();
+      }
+    } catch (error) {
+      console.error("An error occurred:", error);
+    }
   };
 
-  //authentication logic here
-  const handleSubmitdata = async (event) => {
-    event.preventDefault();
+  useEffect(() => {
+    fetchFeedbacks();
+  }, []);
 
+  const fetchFeedbacks = async () => {
     try {
-      const response = await axios.post("http://localhost:3001/feedback", formData);
-      console.log(response.data);
-      console.log(" submit ho gaya chalo aage badho ")
-      event.target.reset(); // Reset form inputs area
-
+      const response = await axios.get('http://localhost:3001/feedget');
+      setFeedbacks(response.data);
     } catch (error) {
-      console.error('Error:', error);
-      console.log("data backened mai nahi gaya");
+      console.error("Error fetching feedbacks:", error);
     }
-  }
-
+  };
 
   return (
     <>
       <div className="page-box">
-        <h1 className="page-first-heading">Feedback for Jharkhand Police</h1>
-
-        <div className="contents">
-          <p>
-            We value your feedback! Please share your thoughts, suggestions, or
-            concerns regarding the services provided by the Jharkhand Police
-            government.
-          </p>
-        </div>
-        <form onSubmit={handleSubmitdata}>
-          <label >Name:</label>
-          <input className="form-team"
+        <h1>Submit Feedback</h1>
+        <form className="form" onSubmit={handleSubmit}>
+          <input
+          className='box'
             type="text"
-            id="name"
             name="name"
-            value={formData.name}
-            onChange={handleChange}
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            placeholder="Name"
             required
-          />
-
-          <label >Message:</label>
-          <input className="form-team"
+          /><br /><br />
+          <input
+          className='box'
             type="text"
-            id="message"
-            name="message"
-            value={formData.message}
-            onChange={handleChange}
+            name="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            placeholder="Email"
             required
-          />
-          <button className="button" type="submit">Submit</button>
+          /><br /><br />
+          <textarea
+            className='box'
+            value={message}
+            onChange={(e) => setMessage(e.target.value)}
+            placeholder="Message"
+            required
+          /><br /><br />
+          <button type="submit" className='feedback-button'>Submit Feedback</button>
+          {/* reset(); */}
         </form>
-
-        <table className="feedback-list">
-          <tr>
-            <th>
-              Name:
-            </th>
-            <th>
-              Message:
-            </th>
-
-          </tr>
+        <h2>Feedbacks</h2>
+        <table className='feed-table-content' border="1" >
+          <thead>
+            <tr>
+              <th>S.no.:</th>
+              <th>Name:</th>
+              <th>Email:</th>
+              <th>Message:</th>
+            </tr>
+          </thead>
+          <tbody>
+            {feedbacks.map((feedback, index) => (
+              <tr key={index}>
+                <td>{index + 1}</td>
+                <td>{feedback.name}</td>
+                <td>{feedback.email}</td>
+                <td>{feedback.message}</td>
+              </tr>
+            ))}
+          </tbody>
         </table>
       </div>
       <style>
         {
           `
-          
-.page-box {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 20px;
-  font-size:16px;
-  font-family: Arial, sans-serif;
-  }
-  
-  .page-first-heading {
-  text-align: center;
-  color: #ff5722; /* Deep Orange */
-  }
-  
-  .contents {
-  margin-bottom: 20px;
-  }
-  
-  .form-team {
-  margin-bottom: 20px;
-  }
-  
-  label {
-  font-weight: bold;
-  }
-  
-  input[type='text'],
-  textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  }
-  
-  .button {
-  padding: 10px 20px;
-  background-color: #4caf50; /* Green */
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  }
-  
-  button:hover {
-  background-color: #388e3c; /* Green Darken-2 */
-  }
-  
-  .feedback-list {
-  margin-top: 30px;
-  }
-  
-  .feedback-list table {
-  width: 100%;
-  border-collapse: collapse;
-  }
-  .feedback-list th{
-      width:500px;;
-  }
-  
-  .feedback-list th,
-  .feedback-list td {
-  border: 1px solid #ddd;
-  padding: 10px;
-  text-align: left;
-  }
-  
-  .feedback-list th {
-  background-color: #f2f2f2; /* Light Grey */
-  color: #333;
-  }
-  
-  
-  
+        .page-box {
+          max-width: 1000px;
+          margin: 0 auto;
+          padding: 20px;
+          font-size: 16px;
+          font-family: Arial, sans-serif;
+        }
+        .form{
+          margin:15px;
+        }
+        .box{
+          width: 100%;
+          text-align:center;
+          font-size:16px;
+          display:flex;
+          justify-content:center;
+        }
+
+
+        .feedback-button {
+          padding: 10px 20px;
+          background-color: #4caf50;
+          color: #fff;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+
+        .feedback-button:hover {
+          background-color: #388e3c;
+        }
+
+        .feed-table-content {
+          width: 100%;
+          border-collapse: collapse;
+          margin-top: 20px;
+        }
+
+        .feed-table-content th,
+        .feed-table-content td {
+          border: 1px solid #ddd;
+          padding: 8px;
+          text-align: left;
+        }
+
+        .feed-table-content th {
+          background-color: #f2f2f2;
+          color: #333;
+        }
           `
         }
       </style>
-
     </>
   );
-};
+}
 
 export default Feedback;

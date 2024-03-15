@@ -13,7 +13,7 @@ a {
     
     color: rgb(54, 54, 136);
     text-decoration: none;
-    text-align: left;
+    text-align: center;
     
 }
 

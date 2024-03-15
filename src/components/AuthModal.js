@@ -1,22 +1,20 @@
 import React, { useState } from 'react';
-import {NavLink } from 'react-router-dom'; // Step 1: Import useNavigate
-import Home from './Home';
 
 const AuthModal = () => {
-  const [showModal, setShowModal] = useState(false);
-  const [name, setName] = useState(""); // Local state for name
-  const [email, setEmail] = useState(""); // Local state for email
-  const [password, setPassword] = useState(""); // Local state for password
-  
 
+  const [showModal, setShowModal] = useState(false);
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState(""); 
+  
   const toggleModal = () => {
     setShowModal(!showModal);
   };
 
   const handleSubmit = async (e) => {
-    e.preventDefault(); // Prevent default form submission behavior
+    e.preventDefault(); 
     try {
-      const response = await fetch('http://localhost:3001/signup', { // Your API endpoint
+      let result = await fetch('http://localhost:3001/signup', { 
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -28,13 +26,13 @@ const AuthModal = () => {
         }),
       });
 
-      if (response.ok) {
-        const result = await response.json();
-        console.log(result); // Process result here
+      if (result.ok) {
+          result = await result.json();
+          localStorage.setItem("user", JSON.stringify(result));
+          toggleModal();
         
         
       } else {
-        // Handle server errors or invalid data
         console.error('Failed to sign up');
       }
     } catch (error) {
@@ -44,7 +42,7 @@ const AuthModal = () => {
 
   return (
     <div>
-      <button onClick={toggleModal}>Signup</button>
+      <button  className="Authbutton" onClick={toggleModal}>Signup</button>
       {showModal && (
         <div className="modal-overlay">
           <div className="modal">
@@ -80,7 +78,7 @@ const AuthModal = () => {
                 required
               />
 
-              <button type="submit">Submit</button>
+              <button className='AuthButton' type="submit">Submit</button>
             </form>
             <button onClick={toggleModal}>Close</button>
           </div>
@@ -135,12 +133,16 @@ const AuthModal = () => {
             padding: 10px;
             border: none;
             border-radius: 5px;
-            cursor: pointer;
+            
             transition: background-color 0.2s;
+          }
+          .AuthButton{
+              font-size:20px;
           }
           .modal button:hover {
             background-color: #234;
             color: white;
+            
           }
           .modal button:last-child {
             margin-top: 10px;
@@ -152,3 +154,19 @@ const AuthModal = () => {
 };
 
 export default AuthModal;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

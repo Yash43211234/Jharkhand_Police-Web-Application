@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import Sign from './LoginModal';
+import Sign from './SettingIcon';
 import { Link, NavLink } from "react-router-dom";
 
 
@@ -54,14 +54,14 @@ function Service() {
             <div class="service-icon">
              <NavLink className="nav-link " to="/MissingChildReport">
                 <img src="img/un_identified_child_found.png " class="pp"></img>
-                <h5 class="rajat"><span id="MainContent_SpanLostReport">Khoya Paya <br/>Child (GNCTD)</span></h5>
+                <h5 class="rajat"><span id="MainContent_SpanLostReport">Khoya  <br/> Paya <br/>Child (GNCTD)</span></h5>
                 </NavLink>
             </div>
 
             <div class="service-icon">
              <NavLink className="nav-link " to="/MissingStolenMobiles">
                 <img src="img/missing_stolen_vehicle.png " class="pp"></img>
-                <h5 class="rajat"><span id="MainContent_SpanLostReport">Missing / Stolen <br/>Phones</span></h5>
+                <h5 class="rajat"><span id="MainContent_SpanLostReport">Missing /  <br/>Stolen <br/>Phones</span></h5>
                 </NavLink>
             </div>
 
