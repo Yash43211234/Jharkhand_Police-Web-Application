@@ -8,16 +8,19 @@ A web application designed to provide an easy and efficient platform for citizen
 - **Complaint Registration**: Allows users to register complaints with detailed descriptions.
 - **Profile Management**: Users can create and manage their profiles easily.
 - **Secure Authentication**: Implements JWT for secure authentication.
-- **Real-Time Complaint Submission**: Complaints are directly submitted to police stations using Nodemailer.
+- **Real-Time Complaint Submission**: Complaints are directly submitted to police stations using **Nodemailer**, ensuring quick and reliable communication.
 - **Scalable Back-End**: Built using Node.js, Express.js, and MySQL for a reliable and scalable back-end.
+
 
 ## Tech Stack
 
-- **Front-End**: HTML, CSS, JavaScript
+- **Front-End**: HTML, CSS, JavaScript, React.js
+  - **React Libraries**: Bootstrap, Material UI, Ant Design
 - **Back-End**: Node.js, Express.js
 - **Database**: MySQL
 - **Authentication**: JSON Web Tokens (JWT)
 - **Email Integration**: Nodemailer for real-time complaint submission
+
 
 ## Installation
 
