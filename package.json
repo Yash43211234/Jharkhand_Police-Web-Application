@@ -1,0 +1,12 @@
+{
+  "name": "jharkhand_police-web-application",
+  "version": "1.0.0",
+  "description": "A web application designed to provide an easy and efficient platform for citizens to file complaints and manage their profiles. The app ensures a smooth and secure complaint registration process with real-time submission directly to police stations.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
