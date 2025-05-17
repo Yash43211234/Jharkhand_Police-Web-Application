@@ -57,7 +57,7 @@ npm install
 - Create a MySQL database and import the database.sql file to set up the required tables.
 - Update the database connection settings in config/database.js.
 
-### Run the App
+### Run the App 
 
 ```bash
 npm start
