@@ -72,4 +72,4 @@ The app will be live on http://localhost:3000.
 ### Contributing
 Feel free to fork this repository, open issues, or submit pull requests for any improvements. Contributions are welcome!
 
-For any inquiries or issues, please reach out to [garimakashyap2121@gmail.com].
+For any inquiries or issues, please reach out to [yashwant4769@gmail.com].
